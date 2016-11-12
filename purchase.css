@@ -1,0 +1,82 @@
+.purchase_header {
+  height: 4.28rem;
+  width: 100%;
+}
+.purchase_header img {
+  height: 4.28rem;
+  width: 100%;
+}
+.purchase_course_title {
+  font-size: 0.32rem;
+  font-weight: bold;
+  white-space: pre-wrap;
+  color: #354054;
+  padding: 0 0.28rem;
+}
+.purchase_course_title:before {
+  content: '';
+  display: block;
+  height: 0.32rem;
+}
+.purchase_course_title:after {
+  content: '';
+  display: block;
+  height: 0.28rem;
+}
+.purchase_course_introduce {
+  padding: 0 0.28rem;
+  color: #AEB3B9;
+}
+.purchase_course_introduce p {
+  font-size: 0.28rem;
+  white-space: pre-wrap;
+}
+.purchase_course_introduce P:after {
+  content: '';
+  display: block;
+  height: 0.16rem;
+}
+.purchase_course_introduce .lesson_time:after {
+  content: '';
+  display: block;
+  height: 0.44rem;
+  border-bottom: 1px solid #AEB3B9;
+}
+.lesson_price {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+}
+.lesson_price .first_span {
+  position: absolute;
+  left: 0.28rem;
+  bottom: 0.4rem;
+  font-weight: bold;
+  font-size: 0.28rem;
+}
+.lesson_price .last_span {
+  position: absolute;
+  right: 0.28rem;
+  bottom: 0.4rem;
+  color: #F43040;
+  font-size: 0.32rem;
+}
+.purchase_notice {
+  background: #f4f5f7;
+  padding: 0.32rem 0.4rem 1.2rem 0.4rem;
+  height: 2.9rem;
+}
+.purchase_notice p {
+  width: 100%;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  color: #AEB3B9;
+}
+.purchase_bottom {
+  width: 100%;
+  height: 1.2rem;
+  background: #354054;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}

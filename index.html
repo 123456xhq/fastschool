@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>购买课程</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./purchase.css">
+    <script>
+        (function (window) {
+            //根据屏幕宽度动态改变html的font-size大小
+            //获取屏幕宽度
+            var winW = document.documentElement.clientWidth || document.body.clientWidth;
+            document.documentElement.style.fontSize = winW / 7.5 + "px";
+            window.onresize = function () {
+                var winW = document.documentElement.clientWidth || document.body.clientWidth;
+                document.documentElement.style.fontSize = winW / 7.5 + "px";
+            }
+        })(window);
+    </script>
+</head>
+<body>
+<!--purchase_header-->
+<div class="purchase_header">
+    <img src="./images/purchase_header.gif" alt="">
+</div>
+<!--"purchase_course-->
+<p class="purchase_course_title">Swift Playground 小学生编程</p>
+<div class="purchase_course_introduce">
+    <p class="lesson_num">共7节课</p>
+    <p class="lesson_age">适合年龄 6-10岁</p>
+    <p class="lesson_time">直播时间 10月12日开始 周一、周三、周五23:11</p>
+</div>
+<div class="lesson_price">
+<span class="first_span">
+    共7节课
+</span>
+<span class="last_span">
+    ￥300
+</span>
+</div>
+<!--purchase_notice-->
+<div class="purchase_notice">
+    <p>
+注：会员仅能在会员有效期内享受主题课程的课程回顾，会员有效期结束则主题课程的课程回顾内容不予显示
+    </p>
+</div>
+
+<!--purchase_bottom-->
+<div class="purchase_bottom">
+    <div class="purchase_bottom_price">
+        <p>￥300</p>
+        <p>会员价￥0</p>
+    </div>
+
+
+</div>
+
+
+
+</body>
+</html>
